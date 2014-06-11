@@ -1,0 +1,36 @@
+CUNY - Bridge Courses Discussion
+
+=========
+6.10.2014
+
+Week 2 discusion
+
+What problem would you solve using data? Please complete the following tasks:
+
+1) Describe the problem and how data would be helpful in solving it. (Due by Thursday, June 12, at 11:59 p.m. EDT)
+
+Be sure to consider some of the following prompts:
+
+Why is a data-driven solution important for solving this problem?
+Are the data needed to solve the problem readily available? Would there be any particular challenges in obtaining what you would need?
+Beyond gathering the data itself, what sorts of things would you need to do in order to solve the problem?
+2) Respond to one of your classmates in their thread by asking follow-up questions, making additional suggestions, or discussing similar problems. (Due by Monday, June 16, at 11:59 p.m. EDT)
+
+
+
+
+Where does the money go?
+
+The question that a lot of countries that recieve development assistance is, where does the money go? How much money is coming into the country this year? Who is contributing the money? What are the exact locations of the projects? Data is helpful in solving this problem.
+
+The more data and data points recorded help governments and other economic instituions plan country governments and make other economic decisions. The problem that most governments face right now is that many development partners (Donor Banks and other agencies) conduct projects in the country without giving the government sufficient data. 
+
+A data driven solution for this problem is to collect all available data from donor partners and manipulate the data until it is in a useable and standard format. The data needed to solve the problem is available, but the various data types needed to create a full picture are found in various locations. Some are in donor cooperation agency own databases, sometimes the data is located in project documents, and finally sometimes data is just located in the donor cooperation agency headquarters. It might be difficult to collect, but it is possible.
+
+To solve this problem, a user would need to collect all the various data types and join them together. This also means that the user needs to standardize the data set. Also, one of the issues with development cooperation data is that projects are recorded in a flat file, but in practice projects have transactions that make up the project. If a user wants to make the data the most complete and accurate as possible, projects would not be unified with transactions; however, project IDs are not consistent throughout datasets. Also, many projects have only titles with no descriptions or other identifying informaiton. A user would need a machine learning algorithm to do the data analysis and unify project with transactions to create the most complete and accurate dataset.
+
+
+=========
+
+
+
