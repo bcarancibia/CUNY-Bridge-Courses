@@ -1,0 +1,12 @@
+CUNY Proposal 6/12/2014
+
+============
+
+The enclosed database is a database of foreign aid projects that currently active or have been active in the Honduras. The AidData_Project_ID is the Primary Key we used in the database. Each AidData_Project_ID is a unique ID. Project commitment amount is the amount that is planned for the project and project disbursement is the actual amount that is used in the implementaiton of the project. There are 1009 projects for a total amount of 6,327,891,879 in 2011 Dollars (standardized amount).
+
+The query for this select statment is:
+
+Select Project_Commitment_Amount_Constant_USD2011,
+(select sum(Project_Commitment_Amount_Constant_USD2011) from projects) total
+from projects;
+
