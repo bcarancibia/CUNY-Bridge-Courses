@@ -1,0 +1,103 @@
+Week 5 R Quiz
+========================================================
+This is how you create the matrixes desired:
+```{r}
+> A <- matrix(c(1,-1,-1,-1), nrow=2)
+> A
+     [,1] [,2]
+[1,]    1   -1
+[2,]   -1   -1
+
+> B <- matrix(c(2, -1, 3, -2), nrow=2)
+> B
+     [,1] [,2]
+[1,]    2    3
+[2,]   -1   -2
+
+> C <- matrix(c(1,0,0,0), nrow=2)
+> C
+     [,1] [,2]
+[1,]    1    0
+[2,]    0    0
+
+> D <- matrix(c(0,1,0,1,0,0,0,0,1), nrow=3)
+> D
+     [,1] [,2] [,3]
+[1,]    0    1    0
+[2,]    1    0    0
+[3,]    0    0    1
+> E <- matrix(c(1,0,0,0,0,1,0,1,0), nrow=3)
+> E
+     [,1] [,2] [,3]
+[1,]    1    0    0
+[2,]    0    0    1
+[3,]    0    1    0
+
+```
+2. How to calculate idempotent matrix: 
+```{r}
+> is.idempotent.matrix(C)
+[1] TRUE
+
+```
+3. how to calculate orthogonal matrix
+```{r}
+> D %*% t(D)
+     [,1] [,2] [,3]
+[1,]    1    0    0
+[2,]    0    1    0
+[3,]    0    0    1
+> E %*% t(E)
+     [,1] [,2] [,3]
+[1,]    1    0    0
+[2,]    0    1    0
+[3,]    0    0    1
+
+```
+4.Creating a list with different elements in it:
+```{r}
+> list1 <- list(5:15, D, Array, DF, list2)
+> list1
+[[1]]
+ [1]  5  6  7  8  9 10 11 12 13 14 15
+
+[[2]]
+     [,1] [,2] [,3]
+[1,]    0    1    0
+[2,]    1    0    0
+[3,]    0    0    1
+
+[[3]]
+, , 1
+
+     [,1] [,2] [,3]
+[1,]    1    3    5
+[2,]    2    4    6
+
+, , 2
+
+     [,1] [,2] [,3]
+[1,]    7    9   11
+[2,]    8   10   12
+
+
+[[4]]
+    x  y          q
+1  10 -4     hockey
+2   9 -3   football
+3   8 -2   baseball
+4   7 -1    curling
+5   6  0      rugby
+6   5  1   lacrosse
+7   4  2 basketball
+8   3  3     tennis
+9   2  4    cricket
+10  1  5     soccer
+
+[[5]]
+[[5]][[1]]
+ [1]  1  2  3  4  5  6  7  8  9 10
+
+```
+
+
