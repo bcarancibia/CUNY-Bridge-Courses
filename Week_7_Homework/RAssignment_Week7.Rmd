@@ -1,0 +1,29 @@
+---
+title: "Week_7_R_assignment"
+author: "Ben Arancibia"
+date: "July 20, 2014"
+output: html_document
+---
+Question 1
+```{r}
+drv <- dbDriver("SQLite")
+con <- dbConnect(drv, "simplecharter.db")
+my.data <- dbReadTable(con, "allcharters")
+my.data
+
+```
+Question 2
+
+```{r}
+db <- dbConnect(SQLite(), dbname="Boston.sqlite")
+dbWriteTable(conn = db, name = "Boston", value = Boston)
+```
+Question 3
+```{r}
+Boston.data <- data.frame(X=Boston)
+drv <- dbDriver("SQLite")
+con <- dbConnect(drv, "Boston.sqlite")
+dbWriteTable(con, "Boston", Boston.data)
+
+
+```
