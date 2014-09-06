@@ -1,3 +1,18 @@
 Value Added - Week 9 CUNY Bridge Courses
 
-The assignment for the 
+The assignment for the Week 9 of the CUNY Bridge course was to take a dataset provided to the class and work as a team to perform an exploratory data analysis that compares the four datasets.
+
+The dataset we had to use is below.
+
+<a href = https://www.coursesites.com/bbcswebdav/pid-6348929-dt-content-rid-19116287_1/courses/IS-02/Assignment.jpg> </a>
+
+The exploratory data analysis proceed in an interesting manner that I don't think was expected by the administrators of the assignment. The data analysis began by graphing the data set and immediately recognizing that the dataset was very similar to the classical Anscombe's Quartet. Graphing the dataset was done in R and as noted in the discussion Anscombe's Quartet shows the failings of regression lines.
+
+The analysis of this data was performed using R and Python with specific packages that focused on graphing. These packages are were ggplot2 for R and matplotlib for Python.
+
+The first set of analysis done on the data were summary statistics, it was discovered that the datasets all had very similar mean, variances, maximums, minimums, and similar linear regression. Some of the key points that the group found while performing this exercise is that diagnostic checks should be run to verify the model. Finding the biggest influencers on the model can be useful for diagnosing problems with a model. 
+
+Checking for influencing data points found that in each dataset there were one or two outliers. The analysis from the group found that a simple linear regression model is the way to start, but that model should be tested and alternative models should be considered. Analysis must verify that the model is a good fit and that the assumptions behind the linear model are satistied.
+
+  
+
